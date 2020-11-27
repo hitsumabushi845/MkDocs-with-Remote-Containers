@@ -1,5 +1,5 @@
 {
-    "name": "Python 3",
+    "name": "MkDocs-VSCode",
     "image": "python:3.8.6-buster",
 
     // Set *default* container specific settings.json values on container create.
