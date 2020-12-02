@@ -7,7 +7,7 @@
             "label": "mkdocs-serve",
             "type": "shell",
             "isBackground": true,
-            "command": "mkdocs serve -a 0.0.0.0:8000",
+            "command": "mkdocs serve",
             "problemMatcher": {
                 "owner": "custom",
                 "pattern": {
