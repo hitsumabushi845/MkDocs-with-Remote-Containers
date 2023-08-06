@@ -24,6 +24,26 @@
             "label": "mkdocs-stop",
             "type": "shell",
             "command": "${command:workbench.action.terminal.kill}"
+        },
+        {
+            "label": "open-simple-browser",
+            "command": "${input:openSimpleBrowser}"
+        },
+        {
+            "label": "open-document-on-simple-browser",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "mkdocs-serve",
+                "open-simple-browser"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "openSimpleBrowser",
+            "type": "command",
+            "command": "simpleBrowser.show",
+            "args": ["http://127.0.0.1:8000"]
         }
     ]
 }
