@@ -5,9 +5,9 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome against localhost",
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
             "url": "http://127.0.0.1:8000",
             "preLaunchTask": "mkdocs-serve",
             "postDebugTask": "mkdocs-stop"

@@ -16,7 +16,7 @@
                 "background": {
                     "activeOnStart": true,
                     "beginsPattern": ".*Building documentation.*",
-                    "endsPattern": ".*Documentation built in.*"
+                    "endsPattern": ".*Serving on.*"
                 }
             }
         },
