@@ -5,7 +5,7 @@ This is a template repository to create [MkDocs](https://www.mkdocs.org) documen
 
 ## Requirements
 
-- VSCode
+- VSCode or VSCode based IDE like Cursor
 - Dev Containers (as VSCode extension)
 - Docker
 
