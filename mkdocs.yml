@@ -1,1 +1,72 @@
 site_name: My Docs
+site_description: Documentation created with MkDocs
+site_author: Your Name
+site_url: https://example.com
+
+# Repository
+repo_name: MkDocs-with-Remote-Containers
+repo_url: https://github.com/hitsumabushi845/MkDocs-with-Remote-Containers
+
+# Theme
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+# Plugins
+plugins:
+  - search:
+      lang: ja
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Home: index.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hitsumabushi845
